@@ -1,0 +1,14 @@
+!!!5
+html(ng-app="app")
+    head
+        title Simple Node Angular Boilerplate
+
+        script(src='public/lib/angular.js')
+        script(src='public/lib/socket.io.js')
+        script(src='http://code.jquery.com/jquery-1.9.1.min.js')
+        script(src='public/js/main.js')
+
+        body
+            h1 It works!
+            div(ng-controller='mainCtrl')
+                h1 {{hello}}
